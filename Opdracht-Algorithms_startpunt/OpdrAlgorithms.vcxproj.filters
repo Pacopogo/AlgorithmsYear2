@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\_School\_School 2025-2026\LowLevelComputerScience\Opdracht-Algorithms_startpunt\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\_School\_School 2025-2026\LowLevelComputerScience\Opdracht-Algorithms_startpunt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{63F8BDCD-5310-3ED8-ADD8-EB5364E4A77B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

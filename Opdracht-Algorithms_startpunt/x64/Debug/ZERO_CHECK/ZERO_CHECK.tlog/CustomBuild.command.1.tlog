@@ -1,0 +1,10 @@
+^C:\_SCHOOL\_SCHOOL 2025-2026\LOWLEVELCOMPUTERSCIENCE\OPDRACHT-ALGORITHMS_STARTPUNT\CMAKEFILES\F78C6BAADDDF8755B5EC7BBF67A7E470\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/_School/_School 2025-2026/LowLevelComputerScience/Opdracht-Algorithms_startpunt" "-BC:/_School/_School 2025-2026/LowLevelComputerScience/Opdracht-Algorithms_startpunt" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/_School/_School 2025-2026/LowLevelComputerScience/Opdracht-Algorithms_startpunt/OpdrAlgorithms.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
