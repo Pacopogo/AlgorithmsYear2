@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\School 2025-2026\LowLevelDevelopment\AlgorithmsYear2\Opdracht-Algorithms_startpunt\Opdracht-Algorithms_startpunt\CMakeFiles\ff3a9b83b89efcb7d7172875afe25309\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B59F565D-2844-3C52-9091-BA91559D8755}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

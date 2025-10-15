@@ -1,0 +1,10 @@
+^E:\SCHOOL 2025-2026\LOWLEVELDEVELOPMENT\ALGORITHMSYEAR2\OPDRACHT-ALGORITHMS_STARTPUNT\OPDRACHT-ALGORITHMS_STARTPUNT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/School 2025-2026/LowLevelDevelopment/AlgorithmsYear2/Opdracht-Algorithms_startpunt/Opdracht-Algorithms_startpunt" "-BE:/School 2025-2026/LowLevelDevelopment/AlgorithmsYear2/Opdracht-Algorithms_startpunt/Opdracht-Algorithms_startpunt" --check-stamp-file "E:/School 2025-2026/LowLevelDevelopment/AlgorithmsYear2/Opdracht-Algorithms_startpunt/Opdracht-Algorithms_startpunt/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
